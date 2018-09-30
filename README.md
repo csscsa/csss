@@ -1,2 +1,2 @@
 # csss
-###auto install php nginx 
+### auto install php nginx 
