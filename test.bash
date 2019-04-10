@@ -222,14 +222,14 @@ case $option in
         install_php5
         ;;
     php7)
-#        install_depend
+        install_depend
         install_php7
         ;;
     redis)
         install_redis
         ;;
     nginx)
-        #install_depend
+        install_depend
         install_nginx 
         ;;
     start)
