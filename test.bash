@@ -6,7 +6,7 @@
 install_depend(){
     depends=(
         build-essential gcc g++ autoconf make libmcrypt-dev  libxml2-dev openssl libssl-dev curl 
-        libjpeg8-dev libpng12-dev libfreetype6-dev libcurl4-gnutls-dev libpcre3-dev zlib1g-dev libevent-dev
+        libjpeg8-dev libpng-dev libfreetype6-dev libcurl4-gnutls-dev libpcre3-dev zlib1g-dev libevent-dev
     )
     for depend in ${depends[@]}
     do
